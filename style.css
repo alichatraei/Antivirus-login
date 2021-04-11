@@ -21,6 +21,7 @@ body {
     #3dcae7,
     #2cbce9
   );
+  overflow: hidden;
 }
 /* Antivirus icon in leftside section */
 .antivirusSection {
@@ -32,4 +33,49 @@ body {
 }
 .antivirusSection img {
   width: 6rem;
+  position: absolute;
+  z-index: 1;
 }
+/* Radar line */
+.radarLine {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 50%;
+  left: 50%;
+  box-shadow: 210px 203px 200px -10px rgba(255, 255, 255, 0.6);
+  transform: rotate(0deg);
+  transform-origin: left bottom;
+  animation: rotate 3s infinite linear;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* .radarLine::after {
+  position: absolute;
+  content: "";
+  height: 10rem;
+  width: 100%;
+  bottom: -10rem;
+  left: 0;
+  background-blend-mode: screen;
+  background: linear-gradient(
+    to bottom left,
+    rgba(255, 255, 255, 0.5),
+    transparent
+  );
+} */
