@@ -8,3 +8,17 @@ body {
 * {
   box-sizing: border-box;
 }
+/* Left side section */
+.leftSide {
+  position: relative;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(
+    to left bottom,
+    #95eeda,
+    #76e3de,
+    #58d7e2,
+    #3dcae7,
+    #2cbce9
+  );
+}
