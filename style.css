@@ -165,7 +165,7 @@ body {
   display: flex;
   align-items: flex-start;
   flex-flow: column;
-  padding: 6rem 7rem 0 3rem;
+  padding: 6rem 7rem 0 5rem;
   font-family: iranyekan;
 }
 .page h6 {
@@ -176,4 +176,61 @@ body {
 }
 .descriptions h4 {
   color: #9d9d9b;
+}
+.form {
+  width: 80%;
+  margin: 1rem 0;
+}
+.input {
+  width: 100%;
+  border-bottom: 0.1rem solid #ccc;
+  padding: 0 0 0 0.3rem;
+  margin: 0 0 3rem 0;
+  display: flex;
+  align-items: center;
+}
+#E-mail {
+  border: none;
+  outline: none;
+  font-size: medium;
+  font-family: Iranyekan;
+  width: 100%;
+}
+.fa-user,
+.fa-lock,
+.fa-minus-circle,
+.fa-sync-alt {
+  color: #bebebb;
+}
+#password {
+  border: none;
+  outline: none;
+  font-size: medium;
+  font-family: Iranyekan;
+  width: 100%;
+}
+.captcha,
+.captchaImage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.captcha img {
+  width: 7rem;
+  margin: 0 0 0 1rem;
+}
+.captchainput {
+  padding: 0 0 0 0.3rem;
+  margin: 0 0 1rem 0;
+  border-bottom: 0.1rem solid #ccc;
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+#captcha {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-family: Iranyekan;
+  font-size: medium;
 }

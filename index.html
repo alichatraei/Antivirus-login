@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Antivirus Login</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./assets/all.css" />
   </head>
   <body>
     <div class="leftSide">
@@ -27,14 +28,36 @@
         </div>
       </div>
       <div class="form">
-        <div class="username">
-          <input type="text" name="username" id="username" />
+        <div class="input">
+          <input
+            type="text"
+            name="E-mail"
+            id="E-mail"
+            placeholder="پست الکترونیکی"
+          />
+          <i class="fas fa-user"></i>
         </div>
-        <div class="password">
-          <input type="text" name="password" id="password" />
+        <div class="input">
+          <input
+            type="text"
+            name="password"
+            id="password"
+            placeholder="رمز عبور"
+          /><i class="fas fa-lock"></i>
         </div>
         <div class="captcha">
-          <input type="text" name="" id="" /><img src="" alt="" />
+          <div class="captchainput">
+            <input
+              type="text"
+              name="captcha"
+              id="captcha"
+              placeholder="کد امنیتی"
+            />
+            <i class="fas fa-minus-circle"></i>
+          </div>
+          <div class="captchaImage">
+            <img src="./assets/captcha.png" /><i class="fas fa-sync-alt"></i>
+          </div>
         </div>
         <div class="button"><input type="button" value="ورود" /></div>
       </div>
