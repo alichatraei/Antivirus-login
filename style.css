@@ -1,3 +1,11 @@
+@font-face {
+  font-family: websans;
+  src: url(./assets/WorkSans-Regular.ttf);
+}
+@font-face {
+  font-family: Iranyekan;
+  src: url(./assets/iranyekan-regular.ttf);
+}
 html,
 body {
   margin: 0;
