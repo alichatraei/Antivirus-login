@@ -1,3 +1,11 @@
+@font-face {
+  font-family: websans;
+  src: url(./assets/WorkSans-Regular.ttf);
+}
+@font-face {
+  font-family: Iranyekan;
+  src: url(./assets/iranyekan-regular.ttf);
+}
 html,
 body {
   margin: 0;
@@ -189,11 +197,17 @@ figure figcaption {
   height: 100%;
   direction: rtl;
   display: flex;
-  justify-content: space-evenly;
   align-items: flex-start;
   flex-flow: column;
-  padding: 8rem;
+  padding: 6rem 7rem 0 3rem;
+  font-family: iranyekan;
 }
 .page h6 {
   color: #0d90df;
+}
+.descriptions {
+  margin: 4rem 0 0 0;
+}
+.descriptions h4 {
+  color: #9d9d9b;
 }
