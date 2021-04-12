@@ -1,3 +1,3 @@
 # Antivirus-login
 A Login page for a company that sell antivirus accounts
-![alt text](http://url/to/img.png)
+![My project's screenshot](https://uupload.ir/files/5zpc_1.png)
