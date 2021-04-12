@@ -261,3 +261,19 @@ body {
   font-size: small;
   color: #bebebb;
 }
+@media only screen and (max-width: 600px) {
+  body {
+    display: block;
+  }
+  .leftSide {
+    width: 100%;
+  }
+  .radarLine {
+    width: 50rem;
+  }
+  .rightSide {
+    width: 100%;
+    align-items: center;
+    padding: 0;
+  }
+}
