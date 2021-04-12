@@ -33,3 +33,11 @@ body {
 .antivirusSection img {
   width: 6rem;
 }
+figure figcaption {
+  margin: .5rem 0 0 0;
+  width: auto;
+  text-align: center;
+  color: white;
+  font-family: websans;
+  font-size: large;
+}
