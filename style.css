@@ -79,3 +79,71 @@ body {
     transparent
   );
 } */
+
+/* Bubbles */
+.bubbles {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bubble {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+}
+.b1::before {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  z-index: 1;
+  content: "";
+  animation: scale 2s infinite ease-out;
+  border-radius: 50%;
+}
+.b1::after {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  z-index: 1;
+  content: "";
+  animation: scale 2s 2s infinite ease-out;
+  border-radius: 50%;
+}
+.b2::before {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  z-index: 1;
+  content: "";
+  animation: scale 1.5s 3s infinite ease-out;
+  border-radius: 50%;
+}
+.b2::after {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  z-index: 1;
+  content: "";
+  animation: scale 1.5s 1s infinite ease-out;
+  border-radius: 50%;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(20);
+    opacity: 0;
+  }
+}
