@@ -234,3 +234,8 @@ body {
   font-family: Iranyekan;
   font-size: medium;
 }
+#E-mail::placeholder,
+#password::placeholder,
+#captcha::placeholder {
+  color: #ccc;
+}
