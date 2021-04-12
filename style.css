@@ -149,3 +149,17 @@ body {
     opacity: 0;
   }
 }
+/* Right side section */
+.rightSide {
+  width: 40%;
+  height: 100%;
+  direction: rtl;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-flow: column;
+  padding: 8rem;
+}
+.page h6 {
+  color: #0d90df;
+}
